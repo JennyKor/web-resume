@@ -1,0 +1,29 @@
+/* Adding a fonts manually, because, well, why not?*/
+
+/* IBM Plex Mono Regular */
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url('../fonts/ibm-plex-mono/fonts/complete/eot/IBMPlexMono-Regular.eot');
+    src: url('../fonts/ibm-plex-mono/fonts/complete/eot/IBMPlexMono-Regular.eot') format('embedded-opentype'),
+    url('../fonts/ibm-plex-mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf') format('truetype'),
+    url('../fonts/ibm-plex-mono/fonts/complete/woff/IBMPlexMono-Regular.woff') format('woff'),
+    url('../fonts/ibm-plex-mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2') format('woff2');
+
+}
+
+/* Note to self: add medium alongside bold and italic, just in case regular feels too thin*/
+
+body {
+    background-color: rgb(174, 238, 235);
+    font-size: 1em;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+hr {
+    border-color: rgb(255, 208, 79);
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
