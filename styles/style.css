@@ -3,11 +3,11 @@
 /* IBM Plex Mono Regular */
 @font-face {
     font-family: "IBM Plex Mono";
-    src: url('../fonts/ibm-plex-mono/fonts/complete/eot/IBMPlexMono-Regular.eot');
-    src: url('../fonts/ibm-plex-mono/fonts/complete/eot/IBMPlexMono-Regular.eot') format('embedded-opentype'),
-    url('../fonts/ibm-plex-mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf') format('truetype'),
-    url('../fonts/ibm-plex-mono/fonts/complete/woff/IBMPlexMono-Regular.woff') format('woff'),
-    url('../fonts/ibm-plex-mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2') format('woff2');
+    src: url('../fonts/ibm-plex-mono/eot/IBMPlexMono-Regular.eot');
+    src: url('../fonts/ibm-plex-mono/eot/IBMPlexMono-Regular.eot') format('embedded-opentype'),
+    url('../fonts/ibm-plex-mono/ttf/IBMPlexMono-Regular.ttf') format('truetype'),
+    url('../fonts/ibm-plex-mono/woff/IBMPlexMono-Regular.woff') format('woff'),
+    url('../fonts/ibm-plex-mono/woff2/IBMPlexMono-Regular.woff2') format('woff2');
 
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 hr {
-    border-color: rgb(255, 208, 79);
+    border-color: rgb(255, 189, 48);
 }
 
 img {
