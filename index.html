@@ -10,26 +10,29 @@
     <!-- The body is going to have two flexboxes, and the content in them is going to be in separate
      html files. Summary is the first active "tab".-->
     <h1>Resume | Jenny Korkeamäki</h1>
-    <h2>Summary</h2>
-    <p>
-        I have studied <b>Business Information Technology</b> at Häme University of Applied Sciences. At the moment I am
-        looking for an internship either in software/web development or testing, but I wouldn't say no to an opening in 
-        IT Support, either. I certainly have customer service experience for that, too.
-    </p>
     <p>
         This page is currently being build. I have a pretty clear plan I have sketched out on Figma, and I'm pretty sure I am able
         to execute it. There's also going to be a button to toggle between two styles, just to have some functionality instead of just
         a static page, either implemented with React or plain JavaScript. We'll see which one suits my needs as I advance on a Udemy
         Web Development Course.
-    </p>
-    <p>
+        <br /><br />
         <img src="images/portfolio_draft.png" alt="A design for this page made on Figma."/>
     </p>
-    <h2>Education</h2>
-
-    <h2>Work Experience</h2>
-
-    <h2>Skills</h2>
+    <div class="Sidebar">
+        <!--Sidebar-->
+        <div class="sidebar-links">
+            <!--sidebar links (currently in the footer)-->
+        </div>
+    </div>
+    <nav class="tabs">
+        <a href="./pages/summary.html">Summary</a>
+        <a href="./pages/education.html">Education</a>
+        <a href="./pages/experience.html">Experience</a>
+        <a href="./pages/skills.html">Skills</a>
+    </nav>
+    <div class="content">
+        <!--Content-->
+    </div>
     <p>
         I mean. Look at this page. An orange &lt;hr&gt;. Hideous.
     </p>
@@ -37,10 +40,11 @@
     <footer>
         <a href="mailto:jehel.korkeamaki@gmail.com">Contact
         </a> | 
-        <a href="https://github.com/JennyKor">GitHub
+        <a href="https://github.com/JennyKor" target="_blank">GitHub
         </a> | 
-        <a href="https://www.linkedin.com/in/jenny-korkeamaki/">LinkedIn
-        </a>
+        <a href="https://www.linkedin.com/in/jenny-korkeamaki/" target="_blank">LinkedIn
+        </a> |
+        <a href="https://github.com/JennyKor/web-resume" target="_blank">Project page on GitHub</a>
     </footer>
 </body>
 </html>
